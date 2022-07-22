@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
+
+* {
+    font-family: 'Lora', serif;  
+}
+
+.cabecalho{
+    background-color: #252525;
+}
+
+a{
+    text-decoration: none;
+    color: #d5bc60;
+    transition: 500ms;
+}
+
+a:hover{
+    color: white;
+    transition: 500ms;
+}
+
+.link_cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.link_cabecalho li{
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 70px;
+}
+
+.logotipo{
+    width: 10%;
+}
+
+.landpage{
+    background-color: #252525;
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+}
+
+.bloco_texto{
+    margin-top: 150px;
+    margin-left: 150px;
+}
+
+.titulo{
+    color: #d5bc60;
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.subtitulo{
+    color: white;
+    font-size: 20px;
+}
+
+.produto_apresentacao{
+    width: 70%;
+    margin-left: 100px;
+}
+
+.sub_titulo_produtos{
+    background-color: #f6f4f5;
+    font-size: 40px;
+    font-weight: none;
+    text-align: center;
+    color: #d5bc60;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.produtos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #f6f4f5;
+}
+.produtos_coluna{
+    display: flex;
+    flex-direction: column;
+}
+
+.produto_um{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width: 400px;
+    padding: 10px;
+    margin-left: 30px;
+    border-radius: 20px;
+    padding-right: 20px;
+}
+
+.teste{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    padding-right: 35px;
+}
+
+.titulo_produto_um{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bnt_produto{
+    margin-top: 50px;
+    border: none;
+    background-color: #d5bc60;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 16px;
+    width: 140px;
+    transition: 1000ms;
+}
+
+.bnt_produto:hover{
+    transition: 1000ms;
+    color: black;
+    cursor: pointer;
+}
+
+.bnt_produto:active{
+    transition: 10ms;
+    color: white;
+}
+
+.sub_titulo_produto_um{
+    margin-top: 10px;
+}
+
+.teste h3{
+    font-weight: none;
+}
+
+.imagem_produtos{
+    width: 140px;
+    height: 200px;
+}
+
+.imagem_produtos_dois{
+    width: 230px;
+    height: 230px;
+}
+
+.produto_dois{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width: 400px;
+    padding: 10px;
+    margin-left: 30px;
+    border-radius: 20px;
+    padding-right: 20px;
+    margin-top: 30px;
+}
+
+.texto_produto_dois{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    padding-right: 27px;
+}
+
+.titulo_produto_dois{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sub_titulo_produto_dois{
+    margin-top: 10px;
+}
+
+.bnt_produto_dois{
+    margin-top: 50px;
+    border: none;
+    background-color: #d5bc60;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 16px;
+    width: 140px;
+    transition: 1000ms;
+}
+
+.bnt_produto_dois:hover{
+    transition: 1000ms;
+    color: black;
+    cursor: pointer;
+}
+
+.bnt_produto_dois:active{
+    transition: 10ms;
+    color: white;
+}
+
+.imagem_produtos_tres{
+    width: 235px;
+}
+
+.produto_tres{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width: 300px;
+    height: 508px;
+    padding: 10px;
+    margin-left: 30px;
+    border-radius: 20px;
+    padding-right: 20px;
+    margin-bottom: 30px;
+}
+
+.texto_produto_tres{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    padding-right: 35px;
+}
+
+.titulo_produto_tres{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.sub_titulo_produto_tres{
+    margin-top: 10px;
+}
+
+.bnt_produto_tres{
+    margin-top: 50px;
+    border: none;
+    background-color: #d5bc60;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 16px;
+    width: 140px;
+    transition: 1000ms;
+}
+
+.bnt_produto_tres:hover{
+    transition: 1000ms;
+    color: black;
+    cursor: pointer;
+}
+
+.bnt_produto_tres:active{
+    transition: 10ms;
+    color: white;
+}
+
+.rodape_produtos{
+    background-color: #252525;
+}
+
+.lista_rodape_produtos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+    padding-left: 360px;
+    padding-right: 360px;
+}
+
+.imagem_apple_rodape{
+    width: 90px;
+}
+
+.imagem_samsung_rodape{
+    width: 120px;
+}
+
+.imagem_xiaomi_rodape{
+    width: 100px;
+    padding-top: 10px;
+}
+
+.imagem_motorola_rodape{
+    width: 100px;
+    padding-top: 10px;
+}
+
+.cadastro{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #f6f4f5;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    padding-top: 20px;
+}
+
+.caixa_cadastro{
+    border-color: #d5bc60;
+    width: 400px;
+    font-size: 16px;
+}
+
+.botao_cadastro{
+    border-color: #d5bc60;
+    background-color: #d5bc60;
+    color: white;
+    width: 100px;
+}
+
+.texto_cadastro{
+    display: flex;
+    flex-direction: column;
+    padding-right: 120px;
+    padding-left: 320px;
+}
+
+.titulo_cadastro{
+    color: #d5bc60;
+    font-weight: bold;
+    font-size: 35px;
+    padding-top: 80px;
+}
+
+.celular_whatsapp{
+    width: 280px;
+    padding-right: 260px;
+    padding-top: 20px;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #252525;
+    color: white;
+    padding: 50px 50px 0px 50px;
+    padding-right: 100px;
+}
+
+.titulos_rodape{
+    color: #d5bc60;
+}
+
+.forma_de_pagamento{
+    width: 400px;
+}
+
+.links_rodape{
+    padding-top: 20px;
+}
+
+.texto_interno{
+    padding-right: 40px;
+}
+
+.logo_rodape{
+    width: 100px;
+}
+
+.rodape_imagem{
+    background-color: #252525;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.rodape_imagem_teste{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
