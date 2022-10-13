@@ -11,12 +11,15 @@
 a{
     text-decoration: none;
     color: #d5bc60;
-    transition: 500ms;
+    transition: linear 300ms;
+    border-bottom: 1px solid #d5bc60;
+    font-size: 1.15em;
 }
 
 a:hover{
     color: white;
-    transition: 500ms;
+    transition: linear 300ms;
+    border-color: white;
 }
 
 .link_cabecalho{
@@ -33,6 +36,7 @@ a:hover{
 
 .logotipo{
     width: 10%;
+    cursor: pointer;
 }
 
 .landpage{
@@ -117,11 +121,11 @@ a:hover{
     padding: 10px;
     font-size: 16px;
     width: 140px;
-    transition: 1000ms;
+    transition: linear 300ms;
 }
 
 .bnt_produto:hover{
-    transition: 1000ms;
+    transition: linear 300ms;
     color: black;
     cursor: pointer;
 }
@@ -186,11 +190,11 @@ a:hover{
     padding: 10px;
     font-size: 16px;
     width: 140px;
-    transition: 1000ms;
+    transition: linear 300ms;
 }
 
 .bnt_produto_dois:hover{
-    transition: 1000ms;
+    transition: linear 300ms;
     color: black;
     cursor: pointer;
 }
@@ -243,11 +247,11 @@ a:hover{
     padding: 10px;
     font-size: 16px;
     width: 140px;
-    transition: 1000ms;
+    transition: linear 300ms;
 }
 
 .bnt_produto_tres:hover{
-    transition: 1000ms;
+    transition: linear 300ms;
     color: black;
     cursor: pointer;
 }
@@ -378,4 +382,8 @@ a:hover{
     display: flex;
     flex-direction: column;
     text-align: center;
+}
+
+.cliq{
+    cursor: pointer;
 }
